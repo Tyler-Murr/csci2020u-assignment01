@@ -88,6 +88,27 @@ textarea {
  * Hide visually and from screen readers
  */
 
+ table, th, td {
+  border: 1px solid black;
+  border-collapse: separate;
+  
+}
+
+.top {
+    background-color: rgb(95, 94, 94);
+    color: white;
+}
+
+.colum{
+  display: flex;
+  flex-direction: column;
+  float: right;
+}
+
+.data{
+  border: 1px solid black;
+}
+
 .hidden,
 [hidden] {
   display: none !important;
